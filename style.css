@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header{
+    background-color: #dfdfdf;
+    width: 100%;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: auto;
+    /* background-color: antiquewhite; */
+}
+
+.header-title{
+    display: flex;
+}
+
+.header-title-text{
+    display: block;
+    padding: 25px 0 0 20px;
+    color: #34363b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    line-height: 1.4;
+}
+
+.header-title-text h1{
+    font-weight: lighter;
+}
+
+.header-title-text p{
+    font-size: 12px;
+}
+
+.header-config{
+    padding: 35px 23px 30px 0;
+}
