@@ -100,17 +100,18 @@ nav{
 footer{
     background-color: #dfdfdf;
     width: 100%;
+    font-size: 13px;
 }
 
 .footer-content{
     max-width: 1320px;
     margin: auto;
-    padding: 18px 0;
+    padding: 18px 0 0 0;
 }
 
 .social-media{
     display: flex;
-    padding: 18px 0;
+    padding: 18px 0 0 0; 
 }
 
 .social-media-logo{
@@ -118,7 +119,8 @@ footer{
     margin-right: 20px;
     padding: 5px;
     align-items: center;
-    font-size: 14px;
+    font-size: 13px;
+    color: #5757d8;
 }
 
 .social-media-logo img{
@@ -127,12 +129,21 @@ footer{
 
 .discord:hover{
     background-color: #cecece;
+    cursor: pointer;
 }
 
 .patreon:hover{
     background-color: #cecece;
+    cursor: pointer;
 }
 
 .crowdin:hover{
     background-color: #cecece;
+    cursor: pointer;
+}
+
+.link-style{
+    color: #5757d8;
+    cursor: pointer;
+    text-decoration: none;
 }
