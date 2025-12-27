@@ -93,3 +93,46 @@ nav{
 .articles:hover{
     background-color: #8eb9b7;
 }
+
+
+/* CSS de Footer */
+
+footer{
+    background-color: #dfdfdf;
+    width: 100%;
+}
+
+.footer-content{
+    max-width: 1320px;
+    margin: auto;
+    padding: 18px 0;
+}
+
+.social-media{
+    display: flex;
+    padding: 18px 0;
+}
+
+.social-media-logo{
+    display: flex;
+    margin-right: 20px;
+    padding: 5px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.social-media-logo img{
+    padding: 0 10px 0 0;
+}
+
+.discord:hover{
+    background-color: #cecece;
+}
+
+.patreon:hover{
+    background-color: #cecece;
+}
+
+.crowdin:hover{
+    background-color: #cecece;
+}
