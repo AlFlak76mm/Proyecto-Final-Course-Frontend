@@ -104,6 +104,24 @@ nav{
 }
 
 
+/* CSS de Main Body */
+body{
+    width: 100%;
+    background-color: #dfdfdf;
+}
+
+.main{
+    max-width: 1320px;
+    background-color: white;
+    margin: auto;
+    padding: 15px 15px 15px 15px;
+}
+
+.main h1{
+    font-weight:900;
+}
+
+
 /* CSS de Footer */
 
 footer{
