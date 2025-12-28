@@ -121,6 +121,19 @@ body{
     font-weight:900;
 }
 
+.main-div{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 3fr 1fr;
+}
+
+/* .main-content */
+
+
+.aside-content{
+    padding: 0 0 0 10px;
+}
+
 
 /* CSS de Footer */
 
