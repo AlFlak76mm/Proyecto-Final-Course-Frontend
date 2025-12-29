@@ -134,6 +134,12 @@ body{
     padding: 0 0 0 10px;
 }
 
+.aside-content-view{
+    background-color: #dfdfdf;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 
 /* CSS de Footer */
 
