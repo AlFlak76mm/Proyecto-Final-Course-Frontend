@@ -132,11 +132,13 @@ body{
 
 .aside-content{
     padding: 0 0 0 10px;
+    
 }
 
 .aside-content-view{
     background-color: #dfdfdf;
     padding: 10px 10px 0 10px;
+    margin: 10px 5px 20px 8px;
     border-radius: 10px;
 }
 
@@ -188,17 +190,9 @@ footer{
     padding: 0 10px 0 0;
 }
 
-.discord:hover{
-    background-color: #cecece;
-    cursor: pointer;
-}
+/* CSS universal */
 
-.patreon:hover{
-    background-color: #cecece;
-    cursor: pointer;
-}
-
-.crowdin:hover{
+.change-option-color:hover{
     background-color: #cecece;
     cursor: pointer;
 }
