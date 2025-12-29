@@ -135,6 +135,20 @@ body{
     flex-direction: column;
     padding: 10px 0 0 0;
     /* background-color: #5757d8; */
+    font-family: Open Sans,Helvetica,sans-serif;
+}
+
+.link-unity-cup{
+    padding: 10px 0 0 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-standard-font{
+    padding: 10px;
+    font-size: 18px;
+    font-family: Open Sans,Helvetica,sans-serif;
+
 }
 
 
