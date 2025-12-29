@@ -231,6 +231,43 @@ body{
     padding-left: 15px;
 }
 
+/* Database-Tools */
+.database-tools{
+    width: 100%;
+}
+
+.database-tools h2{
+    font-size: 26px;
+}
+
+.database-tools-options{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 60px;
+}
+
+.database-tools-option{
+    background-color: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    height: 183px;
+    width: 160px;
+}
+
+.database-tools-option img{
+    max-width: 128px;
+    max-width: 128px;
+}
+
+.database-tools-option span{
+    padding: 10px 0;
+}
+
 .universal-margin{
     margin-top: 40px;
 }
