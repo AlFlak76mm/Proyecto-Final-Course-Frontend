@@ -130,6 +130,8 @@ body{
 /* .main-content */
 
 
+/* Aside-content */
+
 .aside-content{
     padding: 0 0 0 10px;
     
@@ -137,9 +139,11 @@ body{
 
 .aside-content-view{
     background-color: #dfdfdf;
-    padding: 10px 10px 0 10px;
+    padding: 5px 10px 5px 10px;
     margin: 10px 5px 20px 8px;
     border-radius: 10px;
+    line-height: 1.4;
+    letter-spacing: .01em;
 }
 
 .aside-content-view h4{
@@ -150,10 +154,23 @@ body{
     display: flex;
     align-items: center;
     padding: 10px 0 10px 0;
+    height: 50px;
+    margin: 10px 0 10px 0;
 }
 
 .new-content img{
     padding-right: 20px;
+}
+
+.aside-content-simple-view{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 5px 5px;
+    gap: 10px;
+}
+
+.aside-content-simple-view p{
+    font-style: italic;
 }
 
 
@@ -199,6 +216,12 @@ footer{
 
 .link-style{
     color: #5757d8;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-style-dark-blue{
+    color: #0000b5;
     cursor: pointer;
     text-decoration: none;
 }
