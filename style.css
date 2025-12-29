@@ -159,9 +159,10 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 12px 0;
+    margin: 30px 0 0 0;
 }
 
-.article-half-anniversary h3{
+.article-half-anniversary h3, .gacha-banners h3, .current-missions h3{
     font-size: 19.5px;
     font-weight: bold;
 }
@@ -171,8 +172,67 @@ body{
     padding-top: 12px;
 }
 
-.universal-margin-main-content{
-    margin: 30px 0 0 0;
+.gacha-banners{
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.gacha-banners-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner{
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 17.5px;
+    font-weight: lighter;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.current-mission{
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-size: 17.5px;
+}
+
+.current-mission-events{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding-top: 15px;
+}
+
+.mission{
+    display: flex;
+    align-items: center;
+}
+
+.mission-description{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.universal-margin{
+    margin-top: 40px;
 }
 
 
