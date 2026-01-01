@@ -253,6 +253,16 @@ body{
     align-items: center;
 }
 
+@media  screen and (max-width: 520px) {
+    .mission{
+        flex-direction: column;
+    }
+
+    .mission img{
+        max-width: 100%;
+    }
+}
+
 .mission-description{
     display: flex;
     flex-direction: column;
@@ -379,9 +389,26 @@ footer{
     padding: 18px 0 0 0;
 }
 
+.footer-content p{
+    padding: 0 18px 0 0;
+}
+
+@media screen and (max-width:1000px) {
+    .footer-content{
+        padding: 0 18px 0 18px;
+    }
+}
+
 .social-media{
     display: flex;
     padding: 18px 0 0 0; 
+}
+
+@media screen and (max-width:460px){
+    .social-media{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .social-media-logo{
