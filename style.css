@@ -127,6 +127,16 @@ body{
     grid-template-columns: 3fr 1fr;
 }
 
+/* disposicion de main para pantallas pequeñas */
+
+@media screen and (max-width: 650px) {
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
 /* .main-content */
 
 .main-content{
@@ -188,6 +198,14 @@ body{
     justify-content: center;
 }
 
+/* @media screen and (max-width: 650px){
+    .gacha-banners-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
 .banner{
     max-width: 50%;
     display: flex;
@@ -196,6 +214,16 @@ body{
     font-size: 17.5px;
     font-weight: lighter;
 }
+
+@media screen and (max-width: 650px){
+    .banner{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 .banner img{
     max-width: 100%;
