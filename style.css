@@ -110,17 +110,20 @@ nav{
     justify-content: center;
 }
 
-.database:hover{
+.database:hover, .tools:hover, .articles:hover{
     background-color: #8eb9b7;
+    cursor: pointer;
 }
 
-.tools:hover{
+/* .tools:hover{
     background-color: #8eb9b7;
+    cursor: pointer;
 }
 
 .articles:hover{
     background-color: #8eb9b7;
-}
+    cursor: pointer;
+} */
 
 
 /* CSS de Main Body */
