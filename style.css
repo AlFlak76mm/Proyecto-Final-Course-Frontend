@@ -29,6 +29,7 @@ header{
     content: url(https://gametora.com/images/umamusume/header_umas/2_hover.png) ;
 }
 
+
 .header-title-text{
     display: block;
     padding: 25px 0 0 20px;
@@ -36,6 +37,18 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     line-height: 1.4;
+}
+
+@media screen and (max-width: 620px){
+    .header-title-text h1{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .header-title-text h1{
+        font-size: 1.3rem;
+    }
 }
 
 .header-title-text a{
@@ -80,6 +93,12 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     font-size:110%;
+}
+
+@media screen and (max-width:400px) {
+    .menu a{
+        font-size: 90%;
+    } 
 }
 
 .database, .tools, .articles{
